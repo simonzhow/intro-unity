@@ -1,11 +1,22 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
 
+.main {
+  font-family: "Roboto Mono";
+}
+
 .main-header {
   display: flex;
   flex-direction: row;
-  font-family: "Roboto Mono";
   margin-left: 50px;
   margin-top: 25px;
+}
+
+.main-projects {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-left: 250px;
+  margin-right: 250px;
 }
 
 .vr-logo {
@@ -17,6 +28,12 @@
   margin-top: 25px;
   margin-left: 50px;
   font-size: 30pt;
+}
+
+.main-footer {
+  position: fixed;
+  margin-top: 25px;
+  right: 25px;
 }
 
 

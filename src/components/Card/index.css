@@ -1,16 +1,31 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
 /* Card Animation */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.card-container {
+  position: relative;
+  margin: 0 auto;
+  margin-top: 25px;
+  width: 250px;
+  height: 250px;
+}
 
 .card {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 300px;
-    height: 300px;
-    margin: -150px;
-    float: left;
+    width: 250px;
+    height: 250px;
     perspective: 500px;
+    cursor: pointer;
   }
+
+  /* .card-photo {
+    position: relative;
+    width: 250px;
+    height: 250px;
+  } */
   
   .content {
     position: absolute;
@@ -32,15 +47,16 @@
     position: absolute;
     height: 100%;
     width: 100%;
-    background: white;
-    line-height: 300px;
-    color: #03446A;
+    line-height: 250px;
+    color: white;
+    /* color: #03446A; */
+    font-family: "Roboto Mono";
     text-align: center;
-    font-size: 60px;
+    font-size: 30px;
     border-radius: 5px;
     backface-visibility: hidden;
   }
-  
+
   .back {
     background: #03446A;
     color: white;
