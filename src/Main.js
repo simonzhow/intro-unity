@@ -27,7 +27,7 @@ class Main extends Component {
         </div>
 
         <div className="main-projects">
-          <Card name={'Darius'} image={darius} link={'https://www.youtube.com/watch?v=XPPpFM3PESc'}/>
+          <Card name={'Darius'} image={darius} link={'https://youtu.be/ATfdwq-SXVY'}/>
           <Card name={'Amy'} image={amy} link={'https://www.youtube.com/watch?v=-tyqimdWxdo'} />
           <Card name={'Jennifer'} image={jennifer} link={'https://www.youtube.com/watch?v=nAuAhtFON68'} />
           <Card name={'Abby'} image={abby} link={'https://www.youtube.com/watch?v=Q8HeOE9MxFE'} />
