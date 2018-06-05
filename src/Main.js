@@ -7,6 +7,8 @@ import darius from './images/darius.png';
 import amy from './images/amy.png';
 import jennifer from './images/jennifer.png';
 import abby from './images/abby.png';
+import arthur from './images/arthur.png';
+import isabelle from './images/isabelle.png';
 
 import './Main.css';
 
@@ -29,13 +31,14 @@ class Main extends Component {
           <Card name={'Amy'} image={amy} link={'https://www.youtube.com/watch?v=-tyqimdWxdo'} />
           <Card name={'Jennifer'} image={jennifer} link={'https://www.youtube.com/watch?v=nAuAhtFON68'} />
           <Card name={'Abby'} image={abby} link={'https://www.youtube.com/watch?v=Q8HeOE9MxFE'} />
-          <Card name={'Arthur'}/>
-          <Card name={'Isabelle'}/>
+          <Card name={'Arthur'} image={arthur} link={'https://www.youtube.com/watch?v=JWL9abudYhw'} />
+          <Card name={'Isabelle'} image={isabelle} link={'https://www.youtube.com/watch?v=VpImoG_gIEw'} />
         </div>
 
         <div className="main-footer">
           © Creative Labs 2018
         </div>
+        
       </div>
     );
   }
